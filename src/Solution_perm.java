@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class Solution_perm {
     ArrayList<ArrayList<Integer>> result = new ArrayList<ArrayList<Integer>>();
@@ -22,6 +23,8 @@ public class Solution_perm {
             permuteHelper( A, new ArrayList<Integer>() );
             System.out.println("after call" + result.toString());
             return result;
+           // int[] a = new int[6] ;
+           // Arrays.sort(a);
         }
     }
 
